@@ -169,13 +169,6 @@ nav ul{
   }
 }
 
-
-
-
-
-
-
-
    body {
             background-color: rgb(0, 0, 0);
         }
@@ -240,6 +233,31 @@ color code starts here
 
         @keyframes colorchange {
             0% {
+                background: #f899ff;
+            }
+
+            25% {
+                background: #dc7aff;
+            }
+
+            50% {
+                background: #e27aff;
+            }
+
+            75% {
+                background: rgb(216, 130, 247);
+            }
+
+            100% {
+                background: #e08aff;
+            }
+        }
+
+        @-webkit-keyframes colorchange
+
+        /* Safari and Chrome - necessary duplicate */
+            {
+            0% {
                 background: #f78aff;
             }
 
@@ -260,27 +278,10 @@ color code starts here
             }
         }
 
-        @-webkit-keyframes colorchange
-
-        /* Safari and Chrome - necessary duplicate */
-            {
-            0% {
-                background: pink;
-            }
-
-            25% {
-                background: purple;
-            }
-
-            50% {
-                background: teal;
-            }
-
-            75% {
-                background: green;
-            }
-
-            100% {
-                background: skyblue;
-            }
-        }
+img {
+  border-radius: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
