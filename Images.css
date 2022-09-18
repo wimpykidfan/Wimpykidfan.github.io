@@ -91,11 +91,19 @@ ul li ul li {
         font-family: 'Roboto Mono', monospace;
       }
 
-      img {
-        margin: 0 auto;
-        display: block;
-        border-radius: 4px;
+       img {
+      border-radius: 25px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
       }
+
+        .imgbox {
+            display: grid;
+            height: 100%;
+            border-radius: 25px;
+        }
 
       button {
         background:     #ffffff;
@@ -182,11 +190,19 @@ ul li ul li {
         font-family: 'Roboto Mono', monospace;
       }
 
-        img {
-        width: 100%;
-         height: auto;
-        border-radius: 4px;
-      }  
+      img {
+      border-radius: 25px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      }
+
+        .imgbox {
+            display: grid;
+            height: 100%;
+            border-radius: 25px;
+        }
 }
 
 @media screen and (max-width: 600px) {
