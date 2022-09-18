@@ -92,9 +92,10 @@ ul li ul li {
       }
 
       img {
-        margin: 0 auto;
-        display: block;
-        border-radius: 4px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width:25%;
       }
 
       button {
@@ -115,7 +116,9 @@ ul li ul li {
 
       a {
         color: #00ff04;
-      }
+        font-family: 'Roboto Mono', monospace;
+        font-size: 20px;
+         }
 
  body {
             background-color: rgb(0, 0, 0);
@@ -160,3 +163,55 @@ ul li ul li {
             margin: 0px auto;
             display: block;
         }
+
+@media screen and (max-width: 600px) {
+       body {
+       background-image: linear-gradient(to top, #000000 0%, #000000 100%);
+       color:            #00ff04;
+       width:            85%;
+       margin:           30px auto;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+      }
+  
+        p {
+        line-height: 1.5;
+        font-size: 15px;
+        font-family: 'Roboto Mono', monospace;
+      }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 5px }
+
+            h1 {
+            font-family: 'Press Start 2P', cursive;
+            line-height: 1.5;
+            letter-spacing: 2px;
+            font-weight: bold;
+            font-size: 24px;
+            border: 8px solid #00ff04;
+            padding: 10px;
+            border-radius: 25px;
+            text-align: left;
+            animation-duration: 900ms;
+            animation-name: slide-in ;
+            animation-iteration-count: once;
+      }
+
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute; 
+    font-family: 'Press Start 2P', cursive;
+    font-size: 5px;
+}
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 8px;
+   }
+}

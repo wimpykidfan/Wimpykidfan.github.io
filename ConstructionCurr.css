@@ -198,3 +198,73 @@ ul li ul li {
 .ToolsDescription {
   font-size: 20px;
 }
+
+@media screen and (max-width: 600px) {
+       body {
+       background-image: linear-gradient(to top, #fac400 0%, #fac400 100%);
+       color:            #000000;
+       width:            85%;
+       margin:           30px auto;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+      }
+  
+        p {
+        line-height: 1.5;
+        font-size: 15px;
+        font-family: 'Roboto Mono', monospace;
+      }
+
+        .ToolsDescription {
+        font-size: 15px;
+      }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 5px }
+
+            h1 {
+            font-family: 'Press Start 2P', cursive;
+            line-height: 1.5;
+            letter-spacing: 2px;
+            font-weight: bold;
+            font-size: 22px;
+            border: 8px solid #000000;
+            padding: 10px;
+            border-radius: 25px;
+            text-align: left;
+            animation-duration: 900ms;
+            animation-name: slide-in ;
+            animation-iteration-count: once;
+      }
+
+      .ToolsTable {
+  background-color: #fac400;
+  color: black;
+  border: 8px solid #000000;
+  padding: 3px;
+  border-radius: 25px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute; 
+    font-family: 'Press Start 2P', cursive;
+    font-size: 5px;
+}
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 8px;
+   }
+}

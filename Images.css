@@ -165,3 +165,46 @@ ul li ul li {
 .container {
   display: flex;
 }
+
+@media screen and (max-width: 600px) {
+       body {
+       background-image: linear-gradient(to top, #000000 0%, #000000 100%);
+       color:            #fff;
+       width:            85%;
+       margin:           30px auto;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+      }
+  
+        p {
+        line-height: 1.5;
+        font-size: 15px;
+        font-family: 'Roboto Mono', monospace;
+      }
+
+        img {
+        width: 100%;
+         height: auto;
+        border-radius: 4px;
+      }  
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 5px }
+
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute; 
+    font-family: 'Press Start 2P', cursive;
+    font-size: 5px;
+}
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 8px;
+   }
+}

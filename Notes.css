@@ -86,15 +86,17 @@ ul li ul li {
       }
 
       p {
+        text-align: center;
         line-height: 1.5;
         font-size: 24px;
         font-family: 'Roboto Mono', monospace;
       }
 
       img {
-        margin: 0 auto;
-        display: block;
-        border-radius: 4px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width:25%;
       }
 
       button {
@@ -160,4 +162,44 @@ ul li ul li {
         div {
             margin: 0px auto;
             display: block;
-        }
+            max-width: 100%;
+            height: auto;
+          place-content: center;
+}
+
+@media screen and (max-width: 600px) {
+       body {
+       background-image: linear-gradient(to top, #000000 0%, #000000 100%);
+       color:            #fff;
+       width:            85%;
+       margin:           30px auto;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+      }
+  
+        p {
+        line-height: 1.5;
+        font-size: 15px;
+        font-family: 'Roboto Mono', monospace;
+      }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 5px }
+
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute; 
+    font-family: 'Press Start 2P', cursive;
+    font-size: 5px;
+}
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 8px;
+   }
+}
